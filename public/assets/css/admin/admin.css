@@ -1,0 +1,122 @@
+/* General Styling */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden; /* Prevent horizontal scroll */
+    background-color: #f8f9fa;
+}
+
+a {
+    text-decoration: none;
+}
+
+#wrapper {
+    display: flex;
+    height: 100%;
+}
+
+#sidebar-wrapper {
+    width: 250px;
+    background-color: #343a40;
+    padding-top: 20px;
+    transition: all 0.3s ease;
+    flex-shrink: 0;
+}
+
+.sidebar-heading {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+    color: #ffc107;
+}
+
+.list-group-item {
+    transition: background-color 0.3s ease;
+}
+
+.list-group-item:hover {
+    background-color: #495057;
+}
+
+#page-content-wrapper {
+    flex-grow: 1;
+    padding: 20px;
+    overflow-y: auto;
+    background-color: #ffffff;
+    transition: margin-left 0.3s ease;
+}
+
+/* Sidebar collapsed */
+#wrapper.toggled #sidebar-wrapper {
+    margin-left: -250px;
+}
+
+#wrapper.toggled #page-content-wrapper {
+    margin-left: 0;
+}
+
+/* Navbar Styling */
+.navbar {
+    background-color: #f8f9fa !important;
+}
+
+.container-fluid {
+    padding: 20px;
+}
+
+/* Sidebar Customizations */
+.bg-dark {
+    background-color: #343a40 !important;
+    color: #ffffff;
+}
+
+.list-group-item-action {
+    border: none;
+    font-size: 1.1rem;
+    padding: 15px 20px;
+    color: #ffffff;
+}
+
+.list-group-item-action.active,
+.list-group-item-action:hover {
+    background-color: #495057;
+    color: #ffffff;
+}
+
+/* Toggle Button */
+#menu-toggle {
+    background-color: #007bff;
+    color: #ffffff;
+}
+
+#menu-toggle:hover {
+    background-color: #0056b3;
+}
+
+/* Navbar Customizations */
+.navbar-nav .nav-item .nav-link {
+    font-size: 1.1rem;
+    padding-right: 20px;
+    color: #343a40;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #007bff;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    #sidebar-wrapper {
+        margin-left: -250px;
+    }
+
+    #page-content-wrapper {
+        margin-left: 0;
+    }
+
+    #menu-toggle {
+        margin-left: 10px;
+    }
+}

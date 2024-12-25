@@ -1,0 +1,66 @@
+<?php
+
+return [
+
+    "Home" => "Inicio",
+    'Login' => 'Iniciar sesión',
+    'Email Address' => 'Dirección de correo electrónico',
+    'Password' => 'Contraseña',
+    'Remember Me' => 'Recordarme',
+    'Forgot Your Password?' => '¿Olvidaste tu contraseña?',
+
+
+    "Register" => "Registrarse",
+    "Home" => "Inicio",
+    "Username" => "Nombre de usuario",
+    "Email address" => "Dirección de correo electrónico",
+    "Password" => "Contraseña",
+    "Confirm Password" => "Confirmar contraseña",
+    "Re-type password" => "Reescribir la contraseña",
+
+    // Translation for home.blade.php starts
+    'welcome' => 'Bienvenido',
+    'best_coffee_testing_experience' => 'La Mejor Experiencia de Cata de Café',
+    'amazing_taste' => 'Sabor Increíble & Lugar Hermoso',
+    'creamy_hot' => 'Crema Caliente y Listo para Servir',
+    'order_now' => 'Ordena Ahora',
+    'view_menu' => 'Ver Menú',
+    'discover' => 'Descubrir',
+    'our_story' => 'Nuestra Historia',
+    'appointment' => 'Cita',
+    'our_menu' => 'Nuestro Menú',
+    'best_coffee_sellers' => 'Mejores Vendedores de Café',
+    'customers_says' => 'Opiniones de Clientes',
+    'testimony' => 'Testimonio',
+    'phone' => 'Teléfono',
+    'address' => 'Dirección',
+    'hours' => 'Abierto de Lunes a Viernes',
+    'open_hours' => '8:00am - 9:00pm',
+    'book_table' => 'Reservar una Mesa',
+    'first_name' => 'Nombre',
+    'last_name' => 'Apellido',
+    'date' => 'Fecha',
+    'time' => 'Hora',
+    'message' => 'Mensaje',
+    'address_details' => '203 Fake St. Mountain View, San Francisco, California, USA',
+    'name' => 'Nombre',
+    'position' => 'Posición',
+    // Translation for home.blade.php ends
+
+    'Our Menu' => 'Nuestro Menú',
+    'Menu' => 'Menú',
+    'Desserts' => 'Postres',
+    'Drinks' => 'Bebidas',
+    'Add to cart' => 'Añadir al carrito',
+    'Book a Table' => 'Reservar una Mesa',
+    'First Name' => 'Nombre',
+    'Last Name' => 'Apellido',
+    'Date' => 'Fecha',
+    'Time' => 'Hora',
+    'Phone' => 'Teléfono',
+    'Message' => 'Mensaje',
+    'Appointment' => 'Cita',
+    'Discover' => 'Descubrir',
+    'Our Products' => 'Nuestros Productos',
+];
+

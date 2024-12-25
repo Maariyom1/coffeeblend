@@ -1,0 +1,8 @@
+// Import Bootstrap's default styles
+@import 'node_modules/bootstrap/scss/bootstrap';
+
+// Add custom overrides here
+.some-class {
+  font-weight: 20px; // Replace with desired value
+  // Other styles
+}
